@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="75dp"
+	    android:layout_gravity="right"
+	    android:src="@drawable/start2" />
+	
+    <TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1">
+	    <TableRow>
+	        <TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:gravity="center_vertical"
+			    android:text="@string/platforma_label"
+			    android:textStyle="bold" />
+	        <Spinner
+	            android:id="@+id/spinner2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:entries="@array/spinner_platforma" />
+	    </TableRow>
+	    <TableRow>
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="center_vertical"
+	            android:text="@string/gen_label"
+	            android:textStyle="bold"  />
+            <Spinner
+	            android:id="@+id/spinner1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:entries="@array/spinner_gen"/>
+	    </TableRow>
+    </TableLayout>
+    
+   	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.67"
+	        android:hint="@string/edit_text_hint" />
+
+    	<ImageView
+    	    android:id="@+id/imageView2"
+    	    android:layout_width="35dp"
+    	    android:layout_height="match_parent"
+    	    android:clickable="true"
+    	    android:contentDescription="@string/search_description"
+    	    android:src="@drawable/search" />
+    	 
+	</LinearLayout>
+
+	<ListView
+	    android:id="@+id/listView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	</ListView>
+
+</LinearLayout>

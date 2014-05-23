@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+    <game>
+        <name>Child of Light</name>
+        <description>Child of light description</description>
+        <publisher>Ubisoft</publisher>
+        <picture>childoflight</picture>
+        <genre>Action RPG</genre>
+        <platform>PC</platform>
+    </game>
+    <game>
+        <name>Dark Souls 2</name>
+        <description>Dark souls 2 description</description>
+        <publisher>Bandai Namco</publisher>
+        <picture>darksouls2</picture>
+        <genre>Third-person shooter</genre>
+        <platform>PS4</platform>
+    </game>
+    <game>
+        <name>Fruit Ninja</name>
+        <description>Fruit ninja description</description>
+        <publisher>Halfbrick Studios</publisher>
+        <picture>fruitninja</picture>
+        <genre>Arcade</genre>
+        <platform>Mobile</platform>
+    </game>
+</games>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GameFinder</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_description">Search</string>
+    <string name="edit_text_hint">Introduceti numele jocului..</string>
+    <string name="button1">Search</string>
+    <string name="platforma_label">Platforma: </string>
+    <string name="publisher_label">Distribuitor: </string>
+    <string name="detalii_label">Despre joc: </string>
+    <string name="gen_label">Gen: </string>
+    <string name="textView1">Titlu</string>
+    
+    <string-array name="spinner_gen">
+		<item>Toate</item>								<!-- 0 -->
+        <item>Action RPG</item>							<!-- 1 -->
+        <item>Arcade</item>								<!-- 2 -->
+        <item>First-person shooter</item>				<!-- 3 -->
+        <item>MMORPG</item>								<!-- 4 -->
+        <item>Multiplayer online battle arena</item>	<!-- 5 -->
+        <item>Racing</item>								<!-- 6 -->
+        <item>Real-time strategy</item>					<!-- 7 -->
+        <item>Simulation</item>							<!-- 8 -->
+        <item>Sports</item>								<!-- 9 -->
+        <item>Third-person shooter</item>				<!-- 10 -->
+    </string-array>
+    
+    <string-array name="spinner_platforma">
+        <item>Toate</item>			<!-- 0 -->
+        <item>PC</item>				<!-- 1 -->
+        <item>PS3</item>			<!-- 2 -->
+        <item>PS4</item>			<!-- 3 -->
+        <item>Xbox 360</item>		<!-- 4 -->
+        <item>Xbox One</item>		<!-- 5 -->
+        <item>Mobile</item>			<!-- 6 -->
+    </string-array>
+</resources>
